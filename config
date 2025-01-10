@@ -49,7 +49,7 @@
 # 
 # Changing this configuration at runtime will only affect new terminals, i.e.
 # new windows, tabs, etc.
-font-family = Monaspace Neon Var
+font-family = Monaspace Neon Frozen
 
 font-family-bold = 
 font-family-italic = 
@@ -1550,7 +1550,7 @@ click-repeat-interval = 0
 # If "foo" contains `a = 2`, the final value of `a` will be 2, because
 # `foo` is loaded after the configuration file that configures the
 # nested `config-file` value.
-config-file = 
+config-file = ?./maassens.config
 #,?stefan.config,?maassens.config,?linux.config,?macos,config
 
 # When this is true, the default configuration file paths will be loaded.
